@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  width: fit-content;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.youtube-video {
+  aspect-ratio: 16/9;
+  width: 100%;
+  border-radius: 12px;
+}
